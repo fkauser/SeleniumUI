@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.838 sec <<< FAILURE! - in TestSuite
+feature(runners.MainRunner)  Time elapsed: 0.005 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: Error parsing feature file contactus.feature
+Caused by: gherkin.parser.ParseError: Parse error at contactus.feature:14. Found examples when expecting one of: comment, doc_string, row, scenario, scenario_outline, step, tag. (Current getState: step).
+
+writeExtentReport(runners.MainRunner)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at runners.MainRunner.writeExtentReport(MainRunner.java:24)
+

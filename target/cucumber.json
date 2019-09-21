@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7254759700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Send a message to Customer Service in the ‘Contact us’ section",
+        "description": "",
+        "id": "create-a-solution-to-automate-the-test-cases-below;send-a-message-to-customer-service-in-the-‘contact-us’-section;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 951046300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9169881500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User access the contact us form",
+            "match": {
+              "location": "ContactUsSteps.userAccessTheContactUsForm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495368300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Selects a valid Subject \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "ContactUsSteps.userSelectsAValidSubject(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 467524600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters a valid Email address \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 35
+                }
+              ],
+              "location": "ContactUsSteps.userEntersAValidEmailAddress(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 412022700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters a valid Order reference \"Ref123AB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ref123AB",
+                  "offset": 37
+                }
+              ],
+              "location": "ContactUsSteps.userEntersAValidOrderReference(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95539000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User attaches a file",
+            "match": {
+              "location": "ContactUsSteps.userAttachesAFile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 645649200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters comments",
+            "match": {
+              "location": "ContactUsSteps.userEntersComments(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Thank you, your Products are great!",
+                  "I need help with my order"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1706505100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the submit button",
+            "match": {
+              "location": "ContactUsSteps.userClickOnTheSubmitButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128548000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the information should successfully be submitted via the contact us form",
+            "match": {
+              "location": "ContactUsSteps.theFormSubmitted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create a solution to automate the test cases below",
+    "description": "",
+    "id": "create-a-solution-to-automate-the-test-cases-below",
+    "keyword": "Feature",
+    "uri": "contactus.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5742736800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create an account using already registered email id test@test.com",
+        "description": "",
+        "id": "create-a-solution-to-automate-the-test-cases-below;create-an-account-using-already-registered-email-id-test@test.com;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 990999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16031532600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User access the Sign in form",
+            "match": {
+              "location": "SignInSteps.userAccessTheSignInForm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449283700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a Email address \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 29
+                }
+              ],
+              "location": "SignInSteps.userEntersAEmailAddress(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326690200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on the create an account button",
+            "match": {
+              "location": "SignInSteps.userClickOnTheCreateAnAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 745616800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the already been registered Error should be thrown",
+            "match": {
+              "location": "SignInSteps.theAlreadyBeenRegisteredErrorShouldBeThrown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create a solution to automate the test cases below",
+    "description": "",
+    "id": "create-a-solution-to-automate-the-test-cases-below",
+    "keyword": "Feature",
+    "uri": "signin.feature"
+  }
+]
